@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+ultralytics
+huggingface_hub
+opencv-python
+numpy
+python-multipart
+python-dotenv
+lap
+reportlab
+psutil

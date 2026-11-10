@@ -1,0 +1,72 @@
+{
+  "model": {
+    "selected_profile": "constructelligence"
+  },
+  "camera": {
+    "device_index": 0,
+    "resolution": "1280x720",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "backend": "DirectShow"
+  },
+  "ppe": {
+    "global_confidence": 0.2,
+    "min_ioa": 0.15,
+    "violation_duration": 5.0,
+    "violation_cooldown": 10.0,
+    "enabled_categories": [
+      "hardhat",
+      "safety_vest",
+      "mask",
+      "gloves",
+      "goggles"
+    ],
+    "category_confidence": {
+      "hardhat": 0.2,
+      "safety_vest": 0.2,
+      "mask": 0.2,
+      "gloves": 0.2,
+      "goggles": 0.2
+    }
+  },
+  "alerts": {
+    "sound_enabled": true,
+    "visual_enabled": true,
+    "duration_ms": 400,
+    "frequency_hz": 1000,
+    "cooldown_seconds": 10.0,
+    "triggers": {
+      "hardhat": true,
+      "safety_vest": true,
+      "mask": true,
+      "gloves": true,
+      "goggles": true
+    }
+  },
+  "storage": {
+    "retention_days": 30,
+    "image_capture_enabled": true
+  },
+  "preferences": {
+    "theme": "light",
+    "default_page": "dashboard",
+    "refresh_interval_ms": 2000,
+    "notification_mode": "banner",
+    "datetime_format": "24h",
+    "ui_density": "normal"
+  },
+  "email": {
+    "enabled": false,
+    "recipient_email": "safety_officer@example.com",
+    "sender_email": "alerts@example.com",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_username": "alerts@example.com",
+    "smtp_password": "",
+    "use_tls": true,
+    "use_ssl": false,
+    "reminder_interval_minutes": 5
+  }
+}
+

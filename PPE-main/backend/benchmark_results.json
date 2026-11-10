@@ -1,0 +1,12 @@
+{
+  "camera_startup_time_s": 1.61,
+  "model_load_time_s": 0.89,
+  "avg_inference_time_ms": 267.41,
+  "avg_annotation_encode_time_ms": 9.93,
+  "avg_total_frame_latency_ms": 278.09,
+  "effective_fps": 3.6,
+  "avg_cpu_percent": 778.8,
+  "initial_memory_mb": 230.8,
+  "final_memory_mb": 497.4,
+  "memory_growth_mb": 266.6
+}

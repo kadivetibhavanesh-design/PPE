@@ -1,0 +1,79 @@
+# ==============================================================================
+# SafeVision AI - Git Ignore Configuration
+# ==============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.vite/
+frontend/.vite/
+coverage/
+frontend/coverage/
+
+# Environment and Secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
+
+# AI Model Weights (Loaded dynamically from Hugging Face Hub)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.bin
+
+# Local Runtime Application Storage & Secrets
+backend/storage/evidence/*
+!backend/storage/evidence/.gitkeep
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+backend/storage/email_history.json
+backend/storage/email_state.json
+backend/storage/notifications.json
+backend/storage/settings.json
+storage/evidence/*
+!storage/evidence/.gitkeep
+storage/incidents/*
+!storage/incidents/.gitkeep
+
+# IDE and Operating System
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+desktop.ini

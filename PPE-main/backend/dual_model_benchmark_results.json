@@ -1,0 +1,30 @@
+{
+  "constructelligence": {
+    "model_id": "constructelligence",
+    "display_name": "Constructelligence - Construction Site Hazards (YOLOv8)",
+    "switch_time_s": 0.51,
+    "avg_inference_ms": 325.47,
+    "avg_total_ms": 328.48,
+    "effective_fps": 3.0,
+    "memory_mb": 550.7,
+    "detections_count": 37,
+    "distinct_classes_seen": [
+      "person",
+      "no-hardhat",
+      "no-safety vest"
+    ]
+  },
+  "vyra": {
+    "model_id": "vyra",
+    "display_name": "Vyra - Real-Time PPE Detection (YOLOv8)",
+    "switch_time_s": 0.51,
+    "avg_inference_ms": 332.94,
+    "avg_total_ms": 333.75,
+    "effective_fps": 3.0,
+    "memory_mb": 604.2,
+    "detections_count": 9,
+    "distinct_classes_seen": [
+      "no-hardhat"
+    ]
+  }
+}
